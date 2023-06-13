@@ -1,0 +1,99 @@
+.brcm-switch {
+  // Block
+  $root: &;
+  position: relative;
+  display: inline-flex;
+  // Element
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__checkbox {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    &:checked {
+      & ~ #{$root}__btn {
+        background-color: #5D88D5;
+        &::after {
+          transform: translateX(16px);
+        }
+      }
+    }
+    &:hover {
+      &:enabled {
+        &:not(:checked) {
+          & ~ #{$root}__btn {
+            box-shadow: 0 0 0 0.25rem rgba(#C9C9C9, .25);
+          }
+        }
+        &:checked {
+          & ~ #{$root}__btn {
+            box-shadow: 0 0 0 0.25rem rgba(#5D88D5, .25);
+          }
+        }
+      }
+    }
+    &:disabled {
+      & ~ #{$root}__btn {
+        cursor: default;
+      }
+      & ~ #{$root}__label {
+        color: #ABABAB;
+      }
+      &:not(:checked) {
+        & ~ #{$root}__btn {
+          background-color: #E4E4E4;
+        }
+      }
+      &:checked {
+        & ~ #{$root}__btn {
+          background-color: #ABC4EB;
+        }
+      }
+    }
+  }
+  &__btn {
+    width: 40px;
+    background-color: #C9C9C9;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 2px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    &::after {
+      content: '';
+      width: 20px;
+      height: 20px;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      box-shadow: 1px 2px 6px rgba(0, 0, 0, .2);
+      transition: all .3s ease-in-out;
+      transform: translateX(0);
+      display: block;
+    }
+  }
+  &__label {
+    color: #343434;
+    font-size: 14px;
+  }
+  // Modifier
+  &--direction-row {
+    #{$root}__wrapper {
+      flex-direction: row;
+    }
+    #{$root}__label {
+      margin-left: 10px;
+    }
+  }
+  &--direction-row-reverse {
+    #{$root}__wrapper {
+      flex-direction: row-reverse;
+    }
+    #{$root}__label {
+      margin-right: 10px;
+    }
+  }
+}
