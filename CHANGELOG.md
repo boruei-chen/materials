@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/boruei-chen/materials/compare/v1.1.0...v1.1.1) (2023-06-13)
+
+
+### Bug Fixes
+
+* 移除 Sample component ([779dab3](https://github.com/boruei-chen/materials/commit/779dab3460df3d11458ab3bddc1490cab42345e2))
+
 # [1.1.0](https://github.com/boruei-chen/materials/compare/v1.0.0...v1.1.0) (2023-06-13)
 
 
