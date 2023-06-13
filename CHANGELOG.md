@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/boruei-chen/materials/compare/v1.0.0...v1.1.0) (2023-06-13)
+
+
+### Features
+
+* Form/Switch component ([6f5b080](https://github.com/boruei-chen/materials/commit/6f5b080b105ed5964edcc0e4ff2ab8c6430ad312))
+
 # 1.0.0 (2023-06-12)
 
 
