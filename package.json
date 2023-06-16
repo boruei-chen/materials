@@ -1,6 +1,6 @@
 {
   "name": "@boruei.chen/materials",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "BRC Materials React component library",
   "homepage": "https://github.com/boruei-chen/materials#readme",
   "main": "dist/cjs/index.js",

@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/boruei-chen/materials/compare/v1.1.1...v1.2.0) (2023-06-16)
+
+
+### Features
+
+* Form/Textbox component ([253d423](https://github.com/boruei-chen/materials/commit/253d4230c52aedf16cf5ba84feef23b7f388be22))
+
 ## [1.1.1](https://github.com/boruei-chen/materials/compare/v1.1.0...v1.1.1) (2023-06-13)
 
 
