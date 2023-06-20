@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/boruei-chen/materials/compare/v1.2.0...v1.3.0) (2023-06-20)
+
+
+### Features
+
+* Form/Textarea component ([3fc55d5](https://github.com/boruei-chen/materials/commit/3fc55d5c1341822833d081123b7d1f0f87ea3390))
+
 # [1.2.0](https://github.com/boruei-chen/materials/compare/v1.1.1...v1.2.0) (2023-06-16)
 
 
