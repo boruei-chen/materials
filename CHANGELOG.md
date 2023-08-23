@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/boruei-chen/materials/compare/v1.4.0...v1.5.0) (2023-08-23)
+
+
+### Features
+
+* Form/Checkbox component ([9354258](https://github.com/boruei-chen/materials/commit/93542582c6f0dea5b5e3cd22684eabd82b2fc77a))
+
 # [1.4.0](https://github.com/boruei-chen/materials/compare/v1.3.0...v1.4.0) (2023-08-23)
 
 
