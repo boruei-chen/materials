@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/boruei-chen/materials/compare/v1.3.0...v1.4.0) (2023-08-23)
+
+
+### Features
+
+* Form/Select component ([a4a32af](https://github.com/boruei-chen/materials/commit/a4a32af3ee42cf4d3b3f8f6c2e4bacea94a520a0))
+
 # [1.3.0](https://github.com/boruei-chen/materials/compare/v1.2.0...v1.3.0) (2023-06-20)
 
 
