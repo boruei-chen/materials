@@ -3,6 +3,7 @@ import nodeResolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 import postcss from 'rollup-plugin-postcss';
+import postcssUrl from 'postcss-url';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import dts from 'rollup-plugin-dts';
 
@@ -27,7 +28,13 @@ const config = defineConfig([
       nodeResolve(),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json' }),
-      postcss(),
+      postcss({
+        plugins: [
+          postcssUrl({
+            url: 'inline'
+          })
+        ]
+      }),
       peerDepsExternal()
     ]
   },
