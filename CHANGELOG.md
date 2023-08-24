@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/boruei-chen/materials/compare/v1.5.1...v1.5.2) (2023-08-24)
+
+
+### Bug Fixes
+
+* 修正預設值 Virtual Option display name 判斷條件 ([197c0d3](https://github.com/boruei-chen/materials/commit/197c0d38c81de532c39c77ef2988124e519bf4d2))
+
 ## [1.5.1](https://github.com/boruei-chen/materials/compare/v1.5.0...v1.5.1) (2023-08-24)
 
 
