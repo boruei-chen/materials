@@ -36,7 +36,7 @@ const Select = React.forwardRef<HTMLInputElement, Props>((props, ref) => {
 
   useEffect(() => {
     if (!isMountedRef.current) {
-      const virtualOptionElementList = React.Children.toArray(children).filter((element) => React.isValidElement(element) && (element as React.FunctionComponentElement<OptionProps>).type.displayName === 'Option');
+      const virtualOptionElementList = React.Children.toArray(children).filter((element) => React.isValidElement(element) && (element as React.FunctionComponentElement<OptionProps>).type.displayName === 'SelectOption');
       const activeVirtualOptionElement = virtualOptionElementList.find((element) => React.isValidElement<OptionProps>(element) && element.props.value === value);
       if (React.isValidElement<OptionProps>(activeVirtualOptionElement)) {
         const activeOptionData: OptionData = {
