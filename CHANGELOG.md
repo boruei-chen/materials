@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/boruei-chen/materials/compare/v1.5.2...v1.6.0) (2023-09-01)
+
+
+### Features
+
+* Form/Radio component ([36428de](https://github.com/boruei-chen/materials/commit/36428deb44cd9de7d7410b7ac67b073f2a72d1b3))
+
 ## [1.5.2](https://github.com/boruei-chen/materials/compare/v1.5.1...v1.5.2) (2023-08-24)
 
 
