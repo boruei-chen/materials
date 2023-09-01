@@ -1,0 +1,107 @@
+.brcm-radio {
+  // Block
+  $root: &;
+  position: relative;
+  display: inline-flex;
+  // Element
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__radio {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    &:checked {
+      & ~ #{$root}__virtual-radio {
+        background-color: #5D88D5;
+        border-color: #5D88D5;
+        &::after {
+          transform: scale(1);
+        }
+      }
+    }
+    &:hover {
+      &:enabled {
+        &:not(:checked) {
+          & ~ #{$root}__virtual-radio {
+            box-shadow: 0 0 0 0.25rem rgba(#C9C9C9, .25);
+            border-color: #C9C9C9;
+          }
+        }
+        &:checked {
+          & ~ #{$root}__virtual-radio {
+            box-shadow: 0 0 0 0.25rem rgba(#5D88D5, .25);
+          }
+        }
+      }
+    }
+    &:disabled {
+      & ~ #{$root}__virtual-radio {
+        cursor: not-allowed;
+      }
+      & ~ #{$root}__label {
+        color: #ABABAB;
+      }
+      &:not(:checked) {
+        & ~ #{$root}__virtual-radio {
+          background-color: #F7F7F7;
+          border-color: #E3E3E3;
+        }
+      }
+      &:checked {
+        & ~ #{$root}__virtual-radio {
+          background-color: #ABC4EB;
+          border-color: #ABC4EB;
+        }
+      }
+    }
+  }
+  &__virtual-radio {
+    width: 18px;
+    height: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E3E3E3;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: all .15s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &::after {
+      content: '';
+      width: 7px;
+      height: 7px;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      transition: all .3s ease-in-out;
+      transform: scale(0);
+    }
+  }
+  &__label {
+    color: #343434;
+    font-size: 14px;
+  }
+  // Modifier
+  &--direction-row {
+    #{$root}__wrapper {
+      flex-direction: row;
+    }
+    #{$root}__label {
+      margin-left: 7px;
+    }
+  }
+  &--direction-row-reverse {
+    #{$root}__wrapper {
+      flex-direction: row-reverse;
+    }
+    #{$root}__label {
+      margin-right: 7px;
+    }
+  }
+}
