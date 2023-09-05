@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/boruei-chen/materials/compare/v1.6.0...v1.7.0) (2023-09-05)
+
+
+### Features
+
+* Form/Password component ([88bd96e](https://github.com/boruei-chen/materials/commit/88bd96ea756898ce2a1ffe5b26429f95ea598a33))
+
 # [1.6.0](https://github.com/boruei-chen/materials/compare/v1.5.2...v1.6.0) (2023-09-01)
 
 
