@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/boruei-chen/materials/compare/v1.7.2...v1.7.3) (2023-09-06)
+
+
+### Bug Fixes
+
+* 調整 Component 部分樣式 ([c420c44](https://github.com/boruei-chen/materials/commit/c420c444c25ff5017aac56bd6cf4a409118a6ad2))
+
 ## [1.7.2](https://github.com/boruei-chen/materials/compare/v1.7.1...v1.7.2) (2023-09-06)
 
 
