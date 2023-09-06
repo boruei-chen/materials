@@ -24,7 +24,7 @@ const Password = React.forwardRef<HTMLInputElement, Props>((props, ref) => {
       <label className="brcm-password__wrapper">
         {label && <span className="brcm-password__label">{label}</span>}
         <div className="brcm-password__input-wrapper">
-          <input {...restProps} type={maskState === MaskEnum.Protected ? 'password' : 'text'} className="brcm-password__input" disabled={disabled} ref={ref} />
+          <input {...restProps} type={maskState === MaskEnum.Protected ? 'password' : 'text'} className={'brcm-password__input' + (toggleMask ? ' brcm-password__input--mask' : '')} disabled={disabled} ref={ref} />
           {toggleMask && <button type="button" className={'brcm-password__toggle-mask-btn' + (maskState ? ` brcm-password__toggle-mask-btn--${maskState}` : '')} onClick={handleToggleMask} disabled={disabled} />}
         </div>
       </label>
