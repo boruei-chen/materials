@@ -38,7 +38,7 @@
     }
     &:disabled {
       & ~ #{$root}__btn {
-        cursor: default;
+        cursor: not-allowed;
       }
       & ~ #{$root}__label {
         color: #ABABAB;
