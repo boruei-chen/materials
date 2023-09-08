@@ -1,3 +1,10 @@
+## [1.7.4](https://github.com/boruei-chen/materials/compare/v1.7.3...v1.7.4) (2023-09-08)
+
+
+### Bug Fixes
+
+* 增加 Component 設定 children props 彈性 ([65de62a](https://github.com/boruei-chen/materials/commit/65de62a5d86a276c4f40c9e5e137962d925c4eea))
+
 ## [1.7.3](https://github.com/boruei-chen/materials/compare/v1.7.2...v1.7.3) (2023-09-06)
 
 
