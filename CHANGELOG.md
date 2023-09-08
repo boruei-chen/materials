@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/boruei-chen/materials/compare/v1.7.4...v1.8.0) (2023-09-08)
+
+
+### Features
+
+* 更新 README.md ([67d6e94](https://github.com/boruei-chen/materials/commit/67d6e946c32327570e5ca1b85d46c1aac6892346))
+
 ## [1.7.4](https://github.com/boruei-chen/materials/compare/v1.7.3...v1.7.4) (2023-09-08)
 
 
